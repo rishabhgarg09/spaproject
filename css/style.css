@@ -381,7 +381,22 @@
       padding-right: 6px;
       position: relative;
  }
-
+.colway img,.wrap-6 img,.wrap-8 img,.wrap-4 img{
+     width: 100%;
+     height: auto;
+ }
+ .wrap-5 .marsh{
+     width: 70px;
+     height: auto;
+ }
+ .wrap-5 .quotec{
+     width: 59px;
+     height: auto;
+ }
+ header img{
+     width: 49px;
+     height: auto;
+ }
  .colway img {
       width: 100%;
  }
