@@ -799,6 +799,33 @@ nav ul li a:hover::after {
       .bigheader {
            display: none;
       }
+  
+ nav {
+      line-height: 80px;
+      /* margin-left: -22.5px; */
+      margin-left: -1.5rem;
+      font-family: robm;
+      /* font-size: 14px; */
+      font-size: 0.93rem;
+ }
+
+ nav ul {
+      display: flex;
+ }
+
+ nav ul li {
+      margin: 0 7.5px;
+ }
+
+
+ nav ul li a {
+      display: inline-block;
+      padding: 0 1rem;
+      color: #263a41;
+      font-family: robm;
+ }
+  
+}
       
 
 
