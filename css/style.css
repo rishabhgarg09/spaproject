@@ -225,7 +225,7 @@
      position: relative;
 }
 
-  nav {
+ nav {
       line-height: 80px;
       /* margin-left: -22.5px; */
       margin-left: -1.5rem;
@@ -249,6 +249,7 @@
       color: #263a41;
       font-family: robm;
  }
+
  .wrap-2 {
       padding-top: 13rem;
       padding-bottom: 9.33rem;
@@ -381,7 +382,7 @@
       padding-right: 6px;
       position: relative;
  }
-.colway img,.wrap-6 img,.wrap-8 img,.wrap-4 img{
+ .colway img,.wrap-6 img,.wrap-8 img,.wrap-4 img{
      width: 100%;
      height: auto;
  }
@@ -396,9 +397,6 @@
  header img{
      width: 49px;
      height: auto;
- }
- .colway img {
-      width: 100%;
  }
 
  .colway p {
@@ -428,6 +426,7 @@
 
  .wrap-4 img {
       margin-top: 2rem;
+      width: 100%;
  }
 
  .wrap-4 h2 {
@@ -781,9 +780,9 @@
       .bigheader {
            display: none;
       }
-  
-  
-}
+      
+
+
 
       @media screen and (max-width:576px) {
            html {
