@@ -578,12 +578,13 @@
 
             }
         });
-          shiftingg(".allbut", ".pp");
         shiftingg(".aabut", ".aa", ".bb", ".cc", ".dd");
         shiftingg(".bbbut", ".bb", ".aa", ".cc", ".dd");
         shiftingg(".ccbut", ".cc", ".aa", ".bb", ".dd");
         shiftingg(".ccbut", ".cc", ".aa", ".bb", ".dd");
         shiftingg(".ddbut", ".dd", ".aa", ".bb", ".cc");
+        shiftingg(".allbut", ".pp");
+
         document.querySelector(".allbut").addEventListener('click', function () {
             var hare = document.querySelectorAll(".matters .col-6").forEach(function (i) {
                 i.style.display = "block"
